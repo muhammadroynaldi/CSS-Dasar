@@ -1,0 +1,13 @@
+body{
+    background-color: skyblue;
+    background-image: url(gambar/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/* css background singkatan */
+/* 
+    body {
+        background : url(gambar/bg.jpg) skyblue top left no-repeat;
+    }
+*/

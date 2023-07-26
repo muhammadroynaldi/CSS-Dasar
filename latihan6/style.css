@@ -1,0 +1,49 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color: red;
+}
+
+/* li:first-child a{
+    color: green;
+} */
+
+/* li:last-child a{
+    color: green;
+} */
+
+/* odd untuk ganjil dan even untuk genap */
+li:nth-child(odd) a{
+    color: green;
+}
+
+li:nth-child(odd) a:hover{
+    color: red;
+}
+/* n untuk nilai kelipatan dan 2n contoh kelipatan 2 */
+li:nth-child(2n) a{
+    color: burlywood;
+}
+/* 4 untuk urutan ke 4 */
+li:nth-child(4) a{
+    color: yellow;
+}
+
+p:first-of-type{
+    color: red;
+}
+
+p:last-of-type{
+    color: orange;
+}
